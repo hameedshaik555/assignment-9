@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+   FILE * file;
+   if (file = fopen("hello.txt", "w")){
+      printf("File is creatd ");
+      
+      fprintf("hai i ",file);
+      printf("done\n");
+   }
+   else
+   printf("Error");
+   fclose(file);
+   return 0;
+}
