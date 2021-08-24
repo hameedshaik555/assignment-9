@@ -3,8 +3,8 @@
 #include <stdio.h>
 int main()
 {
-   FILE * fp1=fopen("hello.txt","r");
-   FILE * fp2=fopen("happy.txt","a");
+   FILE * fp1=fopen("hai.txt","r");
+   FILE * fp2=fopen("mylife.txt","a");
     char ch1,ch2;
    if(fp1==NULL||fp2==NULL)
    {
