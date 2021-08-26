@@ -19,6 +19,5 @@ reverse_function(int num){
       reverse_function(num/10);
    }
    else
-      return sum;
    return sum;
 }
